@@ -1,0 +1,8 @@
+Sample file. This should upload to Wasabi S3 buckets if
+the value of PutObjectObtions.Metadata key x-amz-meta-bagpath
+does not contain two consecutive spaces.
+
+If that value does contain two consecutive, Wasabi will
+reject the upload with the following message:
+
+The request signature we calculated does not match the signature you provided.
